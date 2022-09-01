@@ -12,7 +12,7 @@ int main()
     float total_WT=0,total_TAT=0,Avg_WT,Avg_TAT;
     printf("Enter the number of the process\n");
     scanf("%d",&n);
-    printf("Enter the arrival time , burst time and priority of the process\n");
+    printf("Enter the arrival time , burst time and priority of the process (row by row): \n");
     printf("AT BT PT\n");
     for(int i=0;i<n;i++)
     {
