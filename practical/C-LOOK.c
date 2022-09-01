@@ -14,10 +14,7 @@ int main()
     scanf("%d",&size);
     printf("Enter the head movement direction for high 1 and for low 0\n");
     scanf("%d",&move);
-    
-    // logic for C-look disk scheduling
-    
-        /*logic for sort the request array */
+   
     for(i=0;i<n;i++)
     {
         for( j=0;j<n-i-1;j++)
@@ -42,8 +39,7 @@ int main()
             break;
         }
     }
-   
-    // if movement is towards high value
+
     if(move==1)
     {
         for(i=index;i<n;i++)
@@ -59,7 +55,7 @@ int main()
             
         }
     }
-    // if movement is towards low value
+
     else
     {
         for(i=index-1;i>=0;i--)
