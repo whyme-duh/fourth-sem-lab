@@ -31,9 +31,21 @@ int avg_time( int proc[], int n, int burst_time[]) {
    return 0;
 }
 int main() {
-   int proc[] = {1, 2, 3, 4};
+   int noOfProcess;
+   int burst_time[100];
+   printf("Enter the no. of processes: ");
+   scanf("%d", &noOfProcess);
+
+   int proc[noOfProcess];
+   printf("Enter the processes (in numbers): ");
+   for(int i =0;i<noOfProcess;i++){
+      scanf("%d", &proc[i]);
+   }
+   printf("Enter the burst time: ");
+   for(int i =0;i<noOfProcess;i++){
+      scanf("%d", &burst_time[i]);
+   }
    int n = sizeof proc / sizeof proc[0];
-   int burst_time[] = {21, 3, 6,2};
    avg_time(proc, n, burst_time);
    return 0;
 }
