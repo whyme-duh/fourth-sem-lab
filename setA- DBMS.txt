@@ -1,0 +1,30 @@
+
+Set A
+
+1. A:
+step 1 : open Xampp and start server and in terminal write this code :
+	mysql -u root -p
+	in password field press enter without enter ing any extra field
+
+step 2: create database library;
+step 3: use library;
+B:
+step 4: create table Book(Book_id int primary key, Bname varchar(50), Wname varchar(50),
+	Pyear Date, Pname varchar(50));
+step 5: insert into Book values(1, "Operating system", "Dinesh", 2012-01-23,"Nepali Publication");
+	Repeat step 5 for inserting 5 queries
+	write one query with Pname as = ashmita
+C:
+step 6: select bname,wname, pname from Book;
+
+2.
+step 7:create view book_view as Select book_id, bname from Book;
+
+3. 
+ 
+step 8: delete from book where pname = "ashmita";
+
+NEEDED CODES FOR SQL;
+
+a. SELECT * FROM table_name; -> displays the table with table_name
+b. SELECT field_name, field_name2 from table_name; -> displays only the specified field_name columns;

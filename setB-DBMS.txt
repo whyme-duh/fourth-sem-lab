@@ -1,0 +1,27 @@
+Set B
+
+1. 
+step 1 : open Xampp and start server and in terminal write this code :
+	mysql -u root -p
+	in password field press enter without enter ing any extra field
+A:
+step 2: create database Students;
+step 3: use Students;
+step 4: create table Student(StudentNo int primary key, StudentName varchar(50), MarksInDBMS int,
+	MarksInEcoomerce int, MarksInFIT int, MarksInWebProgramming int);
+B:
+step 5:insert into Student values(1, "Ram", 45, 45,45,50),(2,"Shyam",56,34,23,42),(3,"Sita", 56,34,45,32),(4, "Shyam", 36,34,56,60);
+	Change your values according to your wish but dont change the name "Ram"
+step 6: select studentName. (sum(MarksInDBMS)+sum(MarksInEcoomerce)+sum(MarksInFIT)+sum(MarksInWebProgramming) as 
+	TotalMarks from student group by studentNo;
+
+2
+step 7: ALTER table Student add phone_no int;
+
+3
+step 8: update student set studentName ="shyam" where studentName="Ram";
+
+NEEDED CODES FOR SQL;
+
+a. SELECT * FROM table_name; -> displays the table with table_name
+b. SELECT field_name, field_name2 from table_name; -> displays only the specified field_name columns;
