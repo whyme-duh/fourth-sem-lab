@@ -2,7 +2,7 @@
 Set A
 
 1. A:
-step 1 : open Xampp and start server and in terminal write this code :
+step 1 : open Xampp and start server and in terminal change the directory to Xampp and write this code :
 	mysql -u root -p
 	in password field press enter without enter ing any extra field
 
