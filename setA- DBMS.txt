@@ -10,10 +10,10 @@ step 2: create database library;
 step 3: use library;
 B:
 step 4: create table Book(Book_id int primary key, Bname varchar(50), Wname varchar(50),
-	Pyear Date, Pname varchar(50));
+Pyear Date, Pname varchar(50));
 step 5: insert into Book values(1, "Operating system", "Dinesh", 2012-01-23,"Nepali Publication");
-	Repeat step 5 for inserting 5 queries
-	write one query with Pname as = ashmita
+	Repeat step 5 for inserting 5 queries,
+	Change the name of the queries as your wish, but write one query with Pname as = ashmita
 C:
 step 6: select bname,wname, pname from Book;
 
