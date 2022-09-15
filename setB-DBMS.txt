@@ -18,7 +18,7 @@ step 6: select StudentName, (sum(MarksInDBMS)+sum(MarksInEcoomerce)+sum(MarksInF
 step 7: ALTER table Student add phone_no int;
 
 3
-step 8: update student set studentName ="shyam" where studentName="Ram";
+step 8: update student set StudentName ="shyam" where StudentName="Ram";
 
 NEEDED CODES FOR SQL;
 
